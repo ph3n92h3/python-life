@@ -4,6 +4,19 @@ python automation: pdf
 
 对哔哩哔哩的孙兴华老师表示感谢，因为大部分操作都是从他的视频中学到的。
 
+# 功能
+添加/解除密码
+
+提取表格/图片/文字
+
+合并/拆分
+
+制作并添加水印
+
+页面倒序
+
+页面旋转
+
 # 相关库
 fitz: https://github.com/pymupdf/PyMuPDF
 
