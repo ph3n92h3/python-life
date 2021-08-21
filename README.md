@@ -5,8 +5,8 @@
 
 提到引用他人成果之处会相应给出链接，在此对原作者一齐表示感谢。
 
-## pdf_watermark
-给pdf文件添加水印
+## email_sender
+自动发送邮件
 
-## pdf_get_content
-提取pdf文件的内容
+## automation_pdf
+记录了一些比较容易实现的 pdf 自动化操作
