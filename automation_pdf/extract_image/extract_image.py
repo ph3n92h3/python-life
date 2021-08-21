@@ -5,7 +5,7 @@ import fitz
 # 还有一点处理不好，就是非图片的内容会在 terminal 输出一堆 mupdf: not an image，但是我今天实在是不想再去改了😒
 
 
-def temp(pdf_file_path):
+def extract_image(pdf_file_path):
     pdf_file = fitz.open(pdf_file_path)
 
     images_directory_path = pdf_file_path[:-pdf_file_path[::-1].find(
@@ -33,4 +33,4 @@ def temp(pdf_file_path):
 if __name__ == '__main__':
     pdf_file_path = ''
 
-    temp(pdf_file_path)
+    extract_image(pdf_file_path)
