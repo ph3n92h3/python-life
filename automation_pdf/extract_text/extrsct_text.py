@@ -12,7 +12,7 @@ with pdfplumber.open(pdf_file_path) as pdf_file:
     for page in range(len(pdf_file.pages)):
         print('\n（提取程序显示）##### 第', page+1, '页 ######\n')
         text += '\n\n（提取程序显示）##### 第 ' + str(page+1) + ' 页 ######\n' + \
-            pdf_file.pages[page].extract_text()
+            pdf_file.pages[page].extract_text()  # 读取每页的text
 
     print('\n（提取程序显示）##### 提取结束 ######')
     text += '\n\n（提取程序显示）##### 提取结束 ######'
